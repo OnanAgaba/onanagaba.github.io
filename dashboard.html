@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dashboard</title>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <title>About Me</title>
   <style>
     body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
     nav a { margin: 0 15px; text-decoration: none; color: #0077cc; }
@@ -10,31 +9,14 @@
   </style>
 </head>
 <body>
-  <h1>Dashboard</h1>
-  <canvas id="myChart" width="400" height="200"></canvas>
+  <h1>About Me</h1>
+  <p>This is the about page of my website.</p>
 
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="dashboard.html">Dashboard</a>
   </nav>
-
-  <script>
-    const ctx = document.getElementById('myChart').getContext('2d');
-    new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: ['A', 'B', 'C', 'D'],
-        datasets: [{
-          label: 'Sample Data',
-          data: [12, 19, 3, 5],
-          backgroundColor: 'rgba(0, 123, 255, 0.5)',
-          borderColor: 'rgba(0, 123, 255, 1)',
-          borderWidth: 1
-        }]
-      },
-      options: { responsive: true, scales: { y: { beginAtZero: true } } }
-    });
-  </script>
 </body>
 </html>
+
