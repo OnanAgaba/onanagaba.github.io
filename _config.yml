@@ -4,16 +4,16 @@
 version: 17 # increment version to force a site rebuild and update Recent News even if content is unchanged
 title: Wilson et al. # in top navigation bar (navbar) and <head>
 description: Projects led by Thomas E. Wilson, Professor of Pathology and Human Genetics, University of Michigan Medical School # description in <head>
-author: Thomas E. Wilson                    # for copyright statement in footer
-url: "https://wilsonte-umich.github.io" # no slash at the end
+author: Onan                    # for copyright statement in footer
+url: "https://onanagaba.github.io"  # no slash at the end
 # baseurl: "/sitename"              # only required if your site is on a subdomain e.g. https://username.github.io/sitename
                                     # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
 #-------------------------------------------------------------------------------------
 # social profile of the principal investigator; icon links shown in footer
 #-------------------------------------------------------------------------------------
-email: wilsonte@umich.edu
+email: onanagaba@yahoo.com
 twitter_username: null
-github_username: wilsonte-umich
+github_username: Onan A
 #-------------------------------------------------------------------------------------
 # theme display settings
 #-------------------------------------------------------------------------------------
