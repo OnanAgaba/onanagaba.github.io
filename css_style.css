@@ -1,41 +1,213 @@
-/* NAVIGATION and HEADER */
 body {
-  font-family: 'Montserrat', Arial, sans-serif;
   margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #005c63;
   background: #fff;
-  color: #145869;
 }
-.wf-header {
-  background: #145869;
+.system-bar {
+  background: #14565b;
+  color: #fff;
+  font-size: 1.08rem;
+  font-family: Montserrat, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.5em 2.5em 0.5em 2.5em;
   display: flex;
-  align>MISSION</span></a>
-        <a-items: center;
   justify-content: space-between;
- href="#">SEE OUR <span>WORK</span></a>
-        <a href="#">EXPLORE OUR <span>CONFERENCES</span></a>
-        <a href="#">MEET OUR <span>PEOPLE</span></a>
-        <button class="search-btn" aria-label="Search">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="#005C63" stroke-width="2"/><line x1="16.0182" y1="16.7071" x2="21" y2="21.6889" stroke="#005C63" stroke-width="2" stroke-linecap="round"/></svg>
-        </button>
-      </nav>
-    </div>
-  </header>
-  <!-- Hero Section -->
-  <section class="hero-section">
-    <img src="images/hero.jpg" alt="Hero" class="hero-img">
-    <div class="hero-headline">
-      IWMI and DWFI partner on<br>
-      Cambridge Sustainability<br>
-      Commission on Water for Food<br>
-      Futures
-    </div>
-  </section>
-  <!-- Cookie Bar -->
-  <div class="cookie-bar">
-    <strong>COOKIE USAGE:</strong>
-    The University of Nebraska System uses cookies to give you the best online experience. By clicking "I Agree" and/or continuing to use this website without adjusting your browser settings, you accept the use of cookies.
-    <a href="#">PRIVACY SETTINGS <span class="chevron">»»»</span></a>
-    <button class="accept-btn">I ACCEPT</button>
-  </div>
-</body>
-</html>
+  align-items: center;
+}
+.system-bar-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 2em;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing:   height: 62px;
+}
+.logo a {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+0.02em;
+  transition: text-decoration 0.2s;
+}
+.system-bar-links a:hover {
+  text-decoration: underline;
+}
+.main-header {
+  background: #fff;
+  border-bottom: 5px solid #40b7be;
+  padding: 0;
+}
+.logo-row {
+  display  padding: 0 2rem;
+  letter-spacing: 1px;
+  display:: flex;
+  align-items: center;
+  justify-content: space inline-block;
+  line-height: 62px;
+}
+nav ul {
+  list-style-between;
+  max-width: 1700px;
+  margin: 0 auto;
+ : none;
+  margin: 0;
+  padding: 0 2.5rem 0 0;
+  display: flex;
+ padding: 1.5em 2.5em;
+}
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 1.3em;
+}
+.main-logo {
+  gap: 2.5rem;
+}
+nav ul li a {
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-decoration  width: 78px;
+  height: auto;
+}
+.logo-text {
+ : none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: border-bottom 0.2s, color 0.2s;
+  border line-height: 1.1;
+}
+.logo-line1 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.11em;
+  font-weight: 700;
+  color: #5e5c5c;
+  letter-spacing: -bottom: 3px solid transparent;
+0.06em;
+}
+.logo-line2 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 2em;
+  font  height: 62px;
+  display: inline-flex;
+  align-items:-weight: 700;
+  color: #005c63;
+  letter-spacing:  center;
+}
+nav ul li.active a,
+nav ul li a:hover {
+  border0.02em;
+}
+.logo-line2 .for {
+  font-size: 0.7em;
+  font-bottom: 3px solid #d6bb6a;
+  color: #d6bb6-style: italic;
+a;
+}
+@media (max-width: 700px) {
+  .wf-header, nav ul {
+    padding: 0.7rem !important;
+    gap: 0.9rem;
+  color: #ac925b;
+  font-weight: 400;
+  margin: 0 0.2em;
+}
+.logo-line3 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1em;
+   }
+  .logo a {
+    font-size: 1rem;
+    padding:  color: #5e5c5c;
+  text-transform: uppercase;
+  font-weight0.6rem;
+  }
+}
+
+/* HERO SECTION */
+.wf-hero {
+  position:: 700;
+  letter-spacing: 0.06em;
+}
+.logo-line4 {
+  font-family: 'Lora', serif;
+  font-size:  relative;
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  height: 430px;
+  background: #222;
+}
+.wf-hero-bg {
+  width: 100%;
+  height: 430px;
+  object-fit1em;
+  color: #6b6b6b;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 0.1em;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 2.3em;
+: cover;
+  display: block;
+}
+.wf-hero-text-container {
+  position: absolute;
+  top: 65px;
+  left: 200px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.wf-hero-line {
+  background: #d6bb6a;
+  color: #145869;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 800;
+  font-size: 3.5rem;  /* ~56px */
+  line-height: 1.05;
+  padding: 6px 24px 8px 24px;
+  margin: 0;
+  letter-spacing: 0.5px;
+  box-decoration-break: clone;
+  border-radius: 2px;
+  width: fit-content;
+}
+@media (max-width: 1100px) {
+  .wf-hero-text-container {
+    left: 40px;
+  }
+  .wf-hero-line {
+    font-size: 2.2rem;
+    padding: 4px 10px 4px 10px;
+  }
+}
+@media (max-width: 700px) {
+  .wf-hero {
+    height: 200px;
+  }
+}
+.main-nav a {
+  text-decoration: none;
+  color  .wf-hero-bg {
+    height: 200px;
+  }
+  .wf-hero-text-container {
+    top: 30px;
+    left: 10px;
+    gap: 6px;
+  }
+  .wf-hero-line {
+    font-size: 1rem;
+    padding: 2px 6px 2px 6px;
+  }
+}
