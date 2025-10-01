@@ -1,213 +1,114 @@
-body {
-  margin: 0;
-  font-family: 'Montserrat', Arial, sans-serif;
-  color: #005c63;
-  background: #fff;
-}
-.system-bar {
-  background: #14565b;
-  color: #fff;
-  font-size: 1.08rem;
-  font-family: Montserrat, Arial, sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 0.5em 2.5em 0.5em 2.5em;
+/* Header and navigation bar */
+header {
+  background: #0057b8;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-}
-.system-bar-links a {
-  color: #fff;
-  text-decoration: none;
-  margin-left: 2em;
-  font-weight: 400;
-  font-size: 1rem;
-  letter-spacing:   height: 62px;
+  padding: 0;
+  justify-content: space-between;
+  height: 70px;
 }
 .logo a {
+  font-family: 'Lora', serif;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 700;
   text-decoration: none;
-0.02em;
-  transition: text-decoration 0.2s;
-}
-.system-bar-links a:hover {
-  text-decoration: underline;
-}
-.main-header {
-  background: #fff;
-  border-bottom: 5px solid #40b7be;
-  padding: 0;
-}
-.logo-row {
-  display  padding: 0 2rem;
+  padding: 0 2rem;
   letter-spacing: 1px;
-  display:: flex;
-  align-items: center;
-  justify-content: space inline-block;
-  line-height: 62px;
+  line-height: 70px;
+  display: inline-block;
 }
 nav ul {
-  list-style-between;
-  max-width: 1700px;
-  margin: 0 auto;
- : none;
+  list-style: none;
   margin: 0;
-  padding: 0 2.5rem 0 0;
+  padding: 0 2rem 0 0;
   display: flex;
- padding: 1.5em 2.5em;
-}
-.logo-area {
-  display: flex;
-  align-items: center;
-  gap: 1.3em;
-}
-.main-logo {
   gap: 2.5rem;
+}
+nav ul li {
+  display: inline;
 }
 nav ul li a {
   font-family: 'Montserrat', Arial, sans-serif;
-  text-decoration  width: 78px;
-  height: auto;
-}
-.logo-text {
- : none;
+  text-decoration: none;
   color: #fff;
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 2px;
+  padding: 0 0.5em;
   text-transform: uppercase;
   transition: border-bottom 0.2s, color 0.2s;
-  border line-height: 1.1;
-}
-.logo-line1 {
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 1.11em;
-  font-weight: 700;
-  color: #5e5c5c;
-  letter-spacing: -bottom: 3px solid transparent;
-0.06em;
-}
-.logo-line2 {
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 2em;
-  font  height: 62px;
+  border-bottom: 3px solid transparent;
+  height: 70px;
   display: inline-flex;
-  align-items:-weight: 700;
-  color: #005c63;
-  letter-spacing:  center;
+  align-items: center;
 }
 nav ul li.active a,
 nav ul li a:hover {
-  border0.02em;
+  border-bottom: 3px solid #d00000;
+  color: #d00000;
+  background: none;
 }
-.logo-line2 .for {
-  font-size: 0.7em;
-  font-bottom: 3px solid #d6bb6a;
-  color: #d6bb6-style: italic;
-a;
-}
-@media (max-width: 700px) {
-  .wf-header, nav ul {
-    padding: 0.7rem !important;
-    gap: 0.9rem;
-  color: #ac925b;
-  font-weight: 400;
-  margin: 0 0.2em;
-}
-.logo-line3 {
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 1em;
-   }
-  .logo a {
-    font-size: 1rem;
-    padding:  color: #5e5c5c;
-  text-transform: uppercase;
-  font-weight0.6rem;
-  }
-}
-
-/* HERO SECTION */
-.wf-hero {
-  position:: 700;
-  letter-spacing: 0.06em;
-}
-.logo-line4 {
-  font-family: 'Lora', serif;
-  font-size:  relative;
+.hero-image {
   width: 100vw;
   max-width: 100%;
   overflow: hidden;
-  height: 430px;
-  background: #222;
-}
-.wf-hero-bg {
-  width: 100%;
-  height: 430px;
-  object-fit1em;
-  color: #6b6b6b;
-  font-style: italic;
-  font-weight: 400;
-  margin-top: 0.1em;
-}
-.main-nav {
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 2.3em;
-: cover;
+  background: #f5fafd;
+  border-bottom: 2px solid #e5e5e5;
+}
+.hero-image img {
+  width: 100%;
+  max-width: 1920px;
+  height: 400px;
+  object-fit: cover;
+  margin: 0 auto;
   display: block;
 }
-.wf-hero-text-container {
-  position: absolute;
-  top: 65px;
-  left: 200px;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+.main-content {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
 }
-.wf-hero-line {
-  background: #d6bb6a;
-  color: #145869;
+.main-content h1 {
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  color: #d00000;
+  margin: 1em 0 0.5em 0;
+}
+.main-content p {
   font-family: 'Montserrat', Arial, sans-serif;
-  font-weight: 800;
-  font-size: 3.5rem;  /* ~56px */
-  line-height: 1.05;
-  padding: 6px 24px 8px 24px;
-  margin: 0;
-  letter-spacing: 0.5px;
-  box-decoration-break: clone;
-  border-radius: 2px;
-  width: fit-content;
+  font-size: 1.2rem;
+  color: #222;
 }
-@media (max-width: 1100px) {
-  .wf-hero-text-container {
-    left: 40px;
-  }
-  .wf-hero-line {
-    font-size: 2.2rem;
-    padding: 4px 10px 4px 10px;
-  }
+footer {
+  background: #f5fafd;
+  color: #222;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1.2em 0;
+  border-top: 2px solid #e5e5e5;
+  margin-top: 2em;
 }
 @media (max-width: 700px) {
-  .wf-hero {
-    height: 200px;
+  header, .main-content, .hero-image {
+    padding: 0.7rem;
   }
-}
-.main-nav a {
-  text-decoration: none;
-  color  .wf-hero-bg {
-    height: 200px;
+  .logo a {
+    font-size: 1.1rem;
+    padding: 0.6rem;
   }
-  .wf-hero-text-container {
-    top: 30px;
-    left: 10px;
-    gap: 6px;
+  nav ul {
+    gap: 0.6rem;
+    padding: 0;
   }
-  .wf-hero-line {
-    font-size: 1rem;
-    padding: 2px 6px 2px 6px;
+  .hero-image img {
+    height: 180px;
+  }
+  .main-content h1 {
+    font-size: 1.2rem;
   }
 }
