@@ -1,114 +1,41 @@
-/* Header and navigation bar */
-header {
-  background: #0057b8;
-  display: flex;
-  align-items: center;
-  padding: 0;
-  justify-content: space-between;
-  height: 70px;
-}
-.logo a {
-  font-family: 'Lora', serif;
-  color: #fff;
-  font-size: 2rem;
-  font-weight: 700;
-  text-decoration: none;
-  padding: 0 2rem;
-  letter-spacing: 1px;
-  line-height: 70px;
-  display: inline-block;
-}
-nav ul {
-  list-style: none;
+/* NAVIGATION and HEADER */
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
   margin: 0;
-  padding: 0 2rem 0 0;
+  background: #fff;
+  color: #145869;
+}
+.wf-header {
+  background: #145869;
   display: flex;
-  gap: 2.5rem;
-}
-nav ul li {
-  display: inline;
-}
-nav ul li a {
-  font-family: 'Montserrat', Arial, sans-serif;
-  text-decoration: none;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 2px;
-  padding: 0 0.5em;
-  text-transform: uppercase;
-  transition: border-bottom 0.2s, color 0.2s;
-  border-bottom: 3px solid transparent;
-  height: 70px;
-  display: inline-flex;
-  align-items: center;
-}
-nav ul li.active a,
-nav ul li a:hover {
-  border-bottom: 3px solid #d00000;
-  color: #d00000;
-  background: none;
-}
-.hero-image {
-  width: 100vw;
-  max-width: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #f5fafd;
-  border-bottom: 2px solid #e5e5e5;
-}
-.hero-image img {
-  width: 100%;
-  max-width: 1920px;
-  height: 400px;
-  object-fit: cover;
-  margin: 0 auto;
-  display: block;
-}
-.main-content {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 0 1.5rem;
-  text-align: center;
-}
-.main-content h1 {
-  font-family: 'Lora', serif;
-  font-size: 2.5rem;
-  color: #d00000;
-  margin: 1em 0 0.5em 0;
-}
-.main-content p {
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 1.2rem;
-  color: #222;
-}
-footer {
-  background: #f5fafd;
-  color: #222;
-  text-align: center;
-  font-size: 1rem;
-  padding: 1.2em 0;
-  border-top: 2px solid #e5e5e5;
-  margin-top: 2em;
-}
-@media (max-width: 700px) {
-  header, .main-content, .hero-image {
-    padding: 0.7rem;
-  }
-  .logo a {
-    font-size: 1.1rem;
-    padding: 0.6rem;
-  }
-  nav ul {
-    gap: 0.6rem;
-    padding: 0;
-  }
-  .hero-image img {
-    height: 180px;
-  }
-  .main-content h1 {
-    font-size: 1.2rem;
-  }
-}
+  align>MISSION</span></a>
+        <a-items: center;
+  justify-content: space-between;
+ href="#">SEE OUR <span>WORK</span></a>
+        <a href="#">EXPLORE OUR <span>CONFERENCES</span></a>
+        <a href="#">MEET OUR <span>PEOPLE</span></a>
+        <button class="search-btn" aria-label="Search">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="#005C63" stroke-width="2"/><line x1="16.0182" y1="16.7071" x2="21" y2="21.6889" stroke="#005C63" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <img src="images/hero.jpg" alt="Hero" class="hero-img">
+    <div class="hero-headline">
+      IWMI and DWFI partner on<br>
+      Cambridge Sustainability<br>
+      Commission on Water for Food<br>
+      Futures
+    </div>
+  </section>
+  <!-- Cookie Bar -->
+  <div class="cookie-bar">
+    <strong>COOKIE USAGE:</strong>
+    The University of Nebraska System uses cookies to give you the best online experience. By clicking "I Agree" and/or continuing to use this website without adjusting your browser settings, you accept the use of cookies.
+    <a href="#">PRIVACY SETTINGS <span class="chevron">»»»</span></a>
+    <button class="accept-btn">I ACCEPT</button>
+  </div>
+</body>
+</html>
