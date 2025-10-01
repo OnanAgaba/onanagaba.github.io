@@ -1,0 +1,122 @@
+/* DWFI style-inspired, for Onan Agaba */
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #222;
+}
+header {
+  background: #fff;
+  border-bottom: 4px solid #0057b8;
+  padding: 0 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a {
+  font-family: 'Lora', serif;
+  color: #d00000;
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 2rem 0 0;
+  display: flex;
+  gap: 1.5rem;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-decoration: none;
+  color: #0057b8;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.75em 0.8em;
+  border-radius: 2px;
+  transition: background 0.2s, color 0.2s;
+}
+nav ul li.active a,
+nav ul li a:hover {
+  background: #0057b8;
+  color: #fff;
+}
+.hero {
+  background: #f5fafd;
+  padding: 2.5rem 2rem 2rem 2rem;
+  text-align: center;
+  border-bottom: 2px solid #e5e5e5;
+}
+.hero h1 {
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  color: #d00000;
+  margin: 0.2em 0 0.6em 0;
+}
+.main-content {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+.main-content h2 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #0057b8;
+  font-size: 1.5rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.7em;
+}
+.main-content p, .main-content ul, .main-content li {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+}
+footer {
+  background: #f5fafd;
+  color: #222;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1.2em 0;
+  border-top: 2px solid #e5e5e5;
+  margin-top: 2em;
+}
+.blog-post {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+}
+.blog-post h3 {
+  color: #d00000;
+  font-family: 'Lora', serif;
+  font-size: 1.3rem;
+  margin: 0.2em 0;
+}
+.blog-post .date {
+  color: #0057b8;
+  font-size: 0.95em;
+  margin-bottom: 0.5em;
+}
+@media (max-width: 700px) {
+  header, .main-content, .hero {
+    padding: 0.7rem;
+  }
+  nav ul {
+    gap: 0.6rem;
+    padding: 0;
+  }
+  .logo a {
+    font-size: 1.3rem;
+    padding: 0.6rem;
+  }
+  .hero h1 {
+    font-size: 1.3rem;
+  }
+  .main-content h2 {
+    font-size: 1.1rem;
+  }
+}
