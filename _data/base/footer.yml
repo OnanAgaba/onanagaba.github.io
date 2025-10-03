@@ -5,13 +5,13 @@
 columns:
   - description:
     links:
-    - text: Department of XYZ
-      href: https://www.XYZ.med.umich.edu/
+    - text: French Associates Institute for Agriculture and Biotechnology of Drylands, Ben-Gurion University of the Negev
+      href: https://www.bgu.ac.il/en/u/faculties/bidr/u/faab/
       new_window: false
     # add more departments as needed
 
   - description: > # e.g. funding acknowledgement. Can be Markdown
-      Short summary information about the Doe lab.
+      #Short summary information about the Doe lab.
     links:
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown
