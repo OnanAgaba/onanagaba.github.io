@@ -9,11 +9,11 @@ permalink: /
 ---
 
 <style>mark{ color:rgb(200,0,0); background-color:white; }</style>
-> <mark>This is a demo site for the</mark> [umich-labs](https://github.com/wilsonte-umich/umich-labs) <mark> Jekyll theme for GitHub Pages. It is not intended as a real laboratory web page. When you copy the template, replace the contents of this and other files with your information.</mark>
 
-Welcome to the web site of the John Doe laboratory.
-Here is some general information about our group
-and what we do.
+
+Welcome to Agaba's Website.
+Here is some information about me and and what I do.
+"""
 
 ### Section Title
 
