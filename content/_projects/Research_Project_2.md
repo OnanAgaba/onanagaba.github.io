@@ -1,5 +1,5 @@
 ---
-title: Research Project 2
+title: Edge-Enabled Smart Irrigation Controller
 subtitle: This is my second project
 description: This is slightly longer description of my second project
 order: 3
