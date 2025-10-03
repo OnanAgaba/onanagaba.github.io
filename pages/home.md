@@ -15,7 +15,7 @@ Welcome to Agaba's Website.
 Here is some information about me and and what I do.
 
 
-### Section Title
+### About Me
 
 Section text, add an image, whatever you'd like.
 See <https://www.markdownguide.org/basic-syntax/>
