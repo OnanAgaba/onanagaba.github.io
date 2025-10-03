@@ -6,9 +6,7 @@ permalink: /contact/
 assistant_email: onanagaba@gmail.com
 ---
 
-### Myself
-
-**Admin Asst Name**  
+### My Email
 <a href="mailto:{{ page.assistant_email }}">{{ page.assistant_email }}</a>
 
 
