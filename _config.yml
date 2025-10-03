@@ -2,18 +2,18 @@
 # site settings
 #-------------------------------------------------------------------------------------
 version: 1 # increment version to force a site rebuild and update Recent News even if content is unchanged
-title: John Doe Laboratory # in top navigation bar (navbar) and <head>
-description: John Doe Laboratory, University of Michigan Medical School # description in <head>
-author: John Doe                    # for copyright statement in footer
-url: "https://jdoe-umich.github.io" # no slash at the end
+title: Water Pathfinders # in top navigation bar (navbar) and <head>
+description: Onan Agaba, Ben-Gurion University of the Negev # description in <head>
+author: Onan Agaba                   # for copyright statement in footer
+url: "https://onanagaba.github.io" # no slash at the end
 # baseurl: "/sitename"              # only required if your site is on a subdomain e.g. https://username.github.io/sitename
                                     # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
 #-------------------------------------------------------------------------------------
 # social profile of the principal investigator; icon links shown in footer
 #-------------------------------------------------------------------------------------
-email: jdoe@umich.edu
+email: onanagaba@gmail.com
 twitter_username: null
-github_username: jdoe-umich
+github_username: OnanAgaba
 #-------------------------------------------------------------------------------------
 # theme display settings
 #-------------------------------------------------------------------------------------
@@ -58,12 +58,6 @@ collections:
     link: hash_always
     output: true   
     hue: 45 # gold
-  funding: 
-    name: funding
-    item: funding
-    link: hash_always
-    output: true   
-    hue: 135 # green
   publications: 
     name: publications
     item: publication
