@@ -13,7 +13,7 @@ permalink: /
 
 Welcome to Agaba's Website.
 Here is some information about me and and what I do.
-"""
+
 
 ### Section Title
 
