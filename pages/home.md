@@ -1,6 +1,6 @@
 ---
 layout: base/home
-title: John Doe Laboratory
+title: Onan Agaba
 title2: University of Michigan # same font size as title, but forced onto a second line
 subtitle: Research laboratory and other projects # smaller font size, shown below title+title2
 # banner_image: /assets/images/doe-lab.jpg
