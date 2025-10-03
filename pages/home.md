@@ -1,7 +1,7 @@
 ---
 layout: base/home
 title: Onan Agaba
-title2: Ben-Gurion University of the Negev 
+#title2: Graduate Student | Researcher 
 
 subtitle: Graduate Student | Researcher # smaller font size, shown below title+title2
 # banner_image: /assets/images/doe-lab.jpg
