@@ -19,8 +19,5 @@
   - text: Resources # simpler data set set in funding.yml
     href: /resources/  
 
-  - text: Funding # simpler data set set in funding.yml
-    href: /funding/  
-
   - text: Contact # simple page unto itself, no connections to other data types
     href: /contact/
