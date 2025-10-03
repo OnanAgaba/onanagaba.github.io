@@ -1,8 +1,9 @@
 ---
 layout: base/home
 title: Onan Agaba
-title2: Ben-Gurion University of the Negev # same font size as title, but forced onto a second line
-subtitle: Research laboratory and other projects # smaller font size, shown below title+title2
+title2: Ben-Gurion University of the Negev 
+
+subtitle: Graduate Student | Researcher # smaller font size, shown below title+title2
 # banner_image: /assets/images/doe-lab.jpg
 permalink: /
 ---
