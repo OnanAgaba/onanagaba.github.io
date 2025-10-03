@@ -3,7 +3,6 @@ Collections <- list(
     event       = 'events',
     funding     = 'funding',
     post        = 'newsfeed',
-    person      = 'people',
     project     = 'projects',
     publication = 'publications',
     resource    = 'resources'
@@ -12,7 +11,6 @@ ItemTypes <- list(
     events       = 'event',
     funding      = 'funding',
     newsfeed     = 'post',
-    people       = 'person',
     projects     = 'project',
     publications = 'publication',
     resources    = 'resource'
