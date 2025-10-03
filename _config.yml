@@ -89,13 +89,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "people"
-    values:
-      permalink: "/people/:slug/"
-      layout: "items/person"
-  -
-    scope:
-      path: ""
       type: "publications"
     values:
       permalink: "/publications/:slug/"
