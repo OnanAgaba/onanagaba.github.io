@@ -1,6 +1,0 @@
-{% assign publication = site.data.publications | where_exp: "item", "item.id == badge_id" | first %}
-{% if publication %}
-    <div class="{{ col_class }}">
-        {% include cards/publication-card.html %}
-    </div> 
-{% endif %}
