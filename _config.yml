@@ -52,12 +52,6 @@ collections:
     link: page_if_exists
     output: true 
     hue: 0 # red
-  people: 
-    name: people
-    item: person
-    link: hash_always
-    output: true   
-    hue: 45 # gold
   publications: 
     name: publications
     item: publication
