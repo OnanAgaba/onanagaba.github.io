@@ -1,5 +1,5 @@
 ---
-title: Research Project 3
+title: Low-cost Soil Moisture Data Logger
 subtitle: This is my third project
 description: This is slightly longer description of my third project which is deliberately being made very long, too long to fit properly on the card
 order: 1
