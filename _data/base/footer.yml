@@ -11,7 +11,9 @@ columns:
     # add more departments as needed
 
   - description: > # e.g. funding acknowledgement. Can be Markdown
-      #Short summary information about the Doe lab.
+    license: >
+      Content on this site is licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/).
+      \| Powered by [umich-labs](https://github.com/wilsonte-umich/umich-labs)
     links:
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown
