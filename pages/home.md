@@ -20,94 +20,31 @@ permalink: /
 <!-- Banner and nav styling to match UCR -->
 <style>
 /* Navigation bar style (place inside your main layout or _includes/header) */
-.ucr-navbar {
-  width: 100%;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  padding: 1.0em 2.5em 1.0em 2.5em;
-  background: #003470;
-  font-weight: bold;
-  font-size: 1.2em;
+/* assets/css/main.css or a custom CSS file */
+.navbar {
+  display: flex; justify-content: space-between; align-items: center;
+  background: #0047AB; color: white; padding: 1em 2em;
+  font-weight: bold; font-size: 1.2em;
 }
-.ucr-navbar a {
-  color: white;
-  text-decoration: none;
-  margin-right: 2em;
-  letter-spacing: 0.03em;
-}
+.navbar a { color: white; text-decoration: none; margin-right: 2em; }
+.navbar .nav-right { float: right; }
 
-.banner-section {
+.ucr-banner {
   position: relative;
-  width: 100%;
-  height: 350px;
-  background: url('/assets/images/Audi.jpg') center/cover no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 380px;
+  background: url('/assets/img/your-bg.jpg') center/cover no-repeat;
+  display: flex; align-items: center; justify-content: center;
 }
-.banner-overlay {
+.ucr-overlay {
   position: absolute; top: 0; left: 0; width: 100%; height: 100%;
   background: rgba(0, 50, 150, 0.35);
 }
-.banner-content {
-  position: relative;
-  z-index: 2;
-  color: white;
-  text-align: center;
+.ucr-content {
+  position: relative; z-index: 1; color: white; text-align: center;
 }
-.banner-content h1 {
-  font-size: 2.8em;
-  font-weight: bold;
-  letter-spacing: 0.01em;
-  margin-bottom: 0.3em;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+.ucr-content h1 {
+  font-size: 3em; font-weight: bold; letter-spacing: 0.02em;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  line-height: 1.1;
 }
-.banner-content h2 {
-  font-size: 1.4em;
-  font-weight: 500;
-  margin-top: 0;
-  opacity: 0.95;
-}
-.main-content {
-  max-width: 730px;
-  margin: 3em auto 0 auto;
-  padding: 1.2em 2.5em;
-  background: white;
-  color: #222;
-  border-radius: 12px;
-  box-shadow: 0 6px 32px rgba(0,0,0,0.07);
-}
-</style>
-
-<!-- Navbar (edit links as needed) -->
-<div class="ucr-navbar">
-  <a href="/">HOME</a>
-  <a href="#">PROJECTS</a>
-  <a href="#">PUBLICATIONS</a>
-  <a href="#">NEWS</a>
-  <a href="#">MORE</a>
-</div>
-
-<!-- Banner section -->
-<section class="banner-section">
-  <div class="banner-overlay"></div>
-  <div class="banner-content">
-    <h1>{{ page.title }}</h1>
-    <h2>{{ page.subtitle }}</h2>
-  </div>
-</section>
-
-<!-- Main content block -->
-<div class="main-content">
-  Welcome to Agaba's Website.<br>
-  Here is some information about me and and what I do.
-
-  ### About Me
-
-  Section text, add an image, whatever you'd like.<br>
-  See <a href="https://www.markdownguide.org/basic-syntax/">markdown syntax guide</a> for how to write page content in markdown (it's easy!).
-
-  <br><br>
-  ![Glassware]({{ "assets/images/chemical-reaction-science-chemistry.jpg" | relative_url }})
-</div>
+/* Add yellow underline/highlight as needed */
