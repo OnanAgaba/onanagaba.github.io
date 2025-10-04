@@ -9,8 +9,13 @@ columns:
       href: https://www.bgu.ac.il/en/u/faculties/bidr/u/faab/
       new_window: false
     # add more departments as needed
-
-  - description: > # e.g. funding acknowledgement. Can be Markdown
+  
+  - description: >
+      <form action="/search" method="get">
+        <label for="footer-search">Search this website:</label><br>
+        <input type="text" id="footer-search" name="q" placeholder="Search..." style="padding:5px; width:80%;">
+        <button type="submit" style="padding:5px;">Go</button>
+      </form>
     
     links:
 
