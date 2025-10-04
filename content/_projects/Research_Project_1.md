@@ -4,7 +4,8 @@ subtitle: This is my first project
 description: This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project. This is slightly longer description of my first project.
 order: 2
 active: true
-card_image: "assets/images/chemical-reaction-science-chemistry.jpg"
+#card_image: "assets/images/chemical-reaction-science-chemistry.jpg"
+card_video: "assets/images/hydrus.mp4"
 card_title: null # used if card_image is null; defaults to title
 categories: 
     - Project Leader
