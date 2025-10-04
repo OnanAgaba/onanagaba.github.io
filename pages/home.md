@@ -9,19 +9,6 @@ permalink: /
 <!-- Banner and nav styling to match UCR -->
 <style>
 /* Navigation bar style (place inside your main layout or _includes/header) */
-/* CSS - add this to your main stylesheet or inside <style> tags */
-
----
-layout: base/home
-title: Onan Agaba
-subtitle: Graduate Student | Researcher
-banner_image: /assets/images/Audi.jpg
-permalink: /
----
-
-<!-- Banner and nav styling to match UCR -->
-<style>
-/* Navigation bar style (place inside your main layout or _includes/header) */
 .ucr-navbar {
   width: 100%;
   display: flex;
