@@ -4,7 +4,7 @@ title: Onan Agaba
 #title2: Graduate Student | Researcher 
 
 subtitle: Graduate Student | Researcher # smaller font size, shown below title+title2
-# banner_image: /assets/images/doe-lab.jpg
+banner_image: /assets/images/Audi.jpg
 permalink: /
 ---
 
