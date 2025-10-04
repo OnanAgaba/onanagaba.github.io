@@ -1,12 +1,13 @@
 {% seo %}
 <!-- Explicit favicon links to ensure browsers pick it up. Place favicon.ico at the site root. -->
 <!-- head include: injected by _includes/head.html - verify this text appears in page <head> to confirm include is used -->
-<!-- Favicon location (Windows path): C:\GitHub\onanagaba.github.io\assets\images\xfavicon.ico -->
+<!-- Favicon location (Windows path): C:\GitHub\onanagaba.github.io\assets\images\favicon.ico -->
 <!-- Use the repo root favicon.ico at site root -->
 <link rel="icon" type="image/x-icon" href="{{ site.baseurl | default: '' }}/favicon.ico">
 <link rel="shortcut icon" href="{{ site.baseurl | default: '' }}/favicon.ico">
-<!-- SVG favicon for modern browsers -->
-<link rel="icon" type="image/ico+jpg" href="{{ site.baseurl | default: '' }}/assets/images/xfavicon.ico">
+<!-- Use the provided ICO in assets/images for broad compatibility -->
+<link rel="icon" type="image/x-icon" href="{{ site.baseurl | default: '' }}/assets/images/xfavicon.ico">
+<link rel="shortcut icon" href="{{ site.baseurl | default: '' }}/assets/images/xfavicon.ico">
 <!-- Common PNG favicons (optional). Fall back to the site logo that already exists in the repo. -->
 <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl | default: '' }}/assets/images/1280px-Michigan_Wolverines_logo-90px_height.png?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl | default: '' }}/assets/images/1280px-Michigan_Wolverines_logo-90px_height.png?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
