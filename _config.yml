@@ -4,14 +4,14 @@
 version: 1 # increment version to force a site rebuild and update Recent News even if content is unchanged
 title: Water Pathfinders # in top navigation bar (navbar) and <head>
 description: Onan Agaba, Ben-Gurion University of the Negev # description in <head>
-author: Onan Agaba                   # for copyright statement in footer
+author: Onan Agaba                  # for copyright statement in footer
 url: "https://onanagaba.github.io" # no slash at the end
-# baseurl: "/sitename"              # only required if your site is on a subdomain e.g. https://username.github.io/sitename
-                                    # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
+# baseurl: "/sitename"               # only required if your site is on a subdomain e.g. [https://username.github.io/sitename](https://username.github.io/sitename)
+                                   # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
 #-------------------------------------------------------------------------------------
 # social profile of the principal investigator; icon links shown in footer
 #-------------------------------------------------------------------------------------
-email: onanagaba@gmail.com
+email: [onanagaba@gmail.com](mailto:onanagaba@gmail.com)
 twitter_username: null
 github_username: OnanAgaba
 #-------------------------------------------------------------------------------------
@@ -25,10 +25,12 @@ max_words_card_short: 25  # truncate project, people and news descriptions after
 max_words_card_long: 50   # truncate other descriptions after this many words in cards
 logo: /assets/images/1280px-Michigan_Wolverines_logo-90px_height.png  # Logo in navbar, will be displayed at 30px height
 colors:
-  links:  "#2F65A7"    # Color for links: use a readable color that contrasts well with dark text
+  links:  "#2F65A7"     # Color for links: use a readable color that contrasts well with dark text
+
 
 
 # !!! only developers should edit below this line !!!
+
 
 
 #-------------------------------------------------------------------------------------
@@ -65,6 +67,7 @@ collections:
     output: true
     hue: 180 # cyan
 
+
 # eight equally spaced color hues: 
 # 0 red
 # 45 gold
@@ -74,6 +77,7 @@ collections:
 # 225 blue
 # 270 purple
 # 315 magenta
+
 
 #-------------------------------------------------------------------------------------
 # frontmatter defaults; only developers should edit this section
@@ -120,12 +124,13 @@ defaults:
     values:
       layout: "base/default" # Only required for Petridish website, implied for sites using a theme
 
+
 #-------------------------------------------------------------------------------------
 # build settings; only developers should edit this section
 #-------------------------------------------------------------------------------------
 remote_theme: wilsonte-umich/umich-labs
 markdown: kramdown
-plugins: # If you build your site on gh-pages, only use these plugins: https://pages.github.com/versions/
+plugins: # If you build your site on gh-pages, only use these plugins: [https://pages.github.com/versions/](https://pages.github.com/versions/)
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -144,3 +149,11 @@ exclude:
 #-------------------------------------------------------------------------------------
 banner: "pink"    # Background color for page banners: use color that contrasts well with white
 footer: "pink"    # Background color for footer: use color that contrasts well with white
+
+
+#-------------------------------------------------------------------------------------
+# Custom font (Google Fonts) integration via head include override example reference
+# Note: Fonts are controlled in CSS, not config. This is a placeholder for font link injection in your HTML head.
+#-------------------------------------------------------------------------------------
+
+google_fonts_url: "https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;500;700;900&display=swap"
