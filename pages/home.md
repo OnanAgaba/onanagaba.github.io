@@ -1,22 +1,31 @@
 ---
 layout: base/home
 title: Onan Agaba
-subtitle: Graduate Student | Researcher
+#title2: Graduate Student | Researcher 
+
+
+subtitle: Graduate Student | Researcher # smaller font size, shown below title+title2
 banner_image: /assets/images/Audi.jpg
 permalink: /
 ---
 
-<!-- Page content starts after navbar + banner -->
 
-<div class="main-content">
-Welcome to Agaba's Website.<br>
+<style>mark{ color:rgb(200,0,0); background-color:white; }</style>
+
+
+
+Welcome to Agaba's Website.
 Here is some information about me and and what I do.
+
+
 
 ### About Me
 
-Section text, add an image, whatever you'd like.<br>
-See <a href="https://www.markdownguide.org/basic-syntax/">markdown syntax guide</a> for how to write page content in markdown (it's easy!).
 
-<br><br>
+Section text, add an image, whatever you'd like.
+See <https://www.markdownguide.org/basic-syntax/>
+for how to write page content in markdown (it's easy!).
+
+
 ![Glassware]({{ "assets/images/chemical-reaction-science-chemistry.jpg" | relative_url }})
-</div>
+
